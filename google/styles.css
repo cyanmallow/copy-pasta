@@ -1,0 +1,29 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#flex-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 2px;
+    gap: 35px;
+    font-size: 20px;
+}
+.grid-box{
+    display: grid;
+    outline: 1px solid black;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#sign-up-btn{
+    background-color: rgb(29, 134, 255);
+    color: aliceblue;
+    font-size: 20px;
+
+}
+#logo {
+    align-items: center;
+    align-self: center;
+}
+
